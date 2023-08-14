@@ -1,0 +1,389 @@
+{
+  "filter": [
+    {
+      "name": "asin",
+      "operator": "contains",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "amazon_title",
+      "operator": "contains",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "size_name",
+      "operator": "contains",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "brand",
+      "operator": "contains",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "color",
+      "operator": "contains",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "parent_asin",
+      "operator": "eq",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "number_of_variations",
+      "operator": "lt",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "net_revenue",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "input_cost",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "input_discount_cost",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "input_total_cogs",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "input_supplier_pack_quantity",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "lowest_price_new_fba",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "lowest_price_used_fba",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "lowest_price_new_fbm",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "lowest_price_used_fbm",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "new_fba_offers_count",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "new_fbm_offers_count",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "amazon_pack_quantity",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "buybox_price",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "buybox_price_new",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "buybox_price_used",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "total_offers_count",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "rank",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "bsr_percentage",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_inbound_shipping",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_prep_cost",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_fba_storage_fees",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "amazon_fees_fba_fees",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_net_revenue",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_profit",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_margin",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "financials_roi",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "competitive_sellers",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "weight",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "width",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "length",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "height",
+      "operator": "eq",
+      "type": "number",
+      "value": null
+    },
+    {
+      "name": "size_tier",
+      "operator": "inlist",
+      "type": "select",
+      "value": []
+    },
+    {
+      "name": "small_and_light_eligible",
+      "operator": "eq",
+      "type": "boolean",
+      "value": null
+    },
+    {
+      "name": "is_brand_blocklisted",
+      "operator": "eq",
+      "type": "boolean",
+      "value": null
+    },
+    {
+      "name": "is_meltable",
+      "operator": "eq",
+      "type": "boolean",
+      "value": null
+    }
+  ],
+  "sort": null,
+  "list": 0,
+  "order": [
+    "checkbox",
+    "notes",
+    "chart",
+    "flags",
+    "asin",
+    "amazon_title",
+    "fba_eligibility",
+    "image",
+    "size",
+    "brand",
+    "color",
+    "parent_asin",
+    "variations_list",
+    "number_of_variations",
+    "amazon_pack_quantity",
+    "small_and_light_eligible",
+    "buybox_price",
+    "buybox_price_new",
+    "buybox_price_used",
+    "number_of_total_offers",
+    "rank",
+    "category",
+    "is_top_level_category",
+    "bsr_percentage",
+    "width",
+    "height",
+    "length",
+    "weight",
+    "number_of_competitive_sellers",
+    "inbound_shipping",
+    "prep_cost",
+    "fba_storage_fees",
+    "per_item_fee",
+    "fba_fees",
+    "variable_closing_fee",
+    "referral_fee",
+    "net_revenue",
+    "profit",
+    "margin",
+    "roi",
+    "inputs.identifier",
+    "inputs.cost",
+    "inputs.per_product_discount",
+    "inputs.discount_cost",
+    "inputs.total_cogs",
+    "inputs.stock",
+    "inputs.map",
+    "inputs.supplier_title",
+    "inputs.supplier_sku",
+    "inputs.supplier_image",
+    "inputs.supplier_pack_quantity",
+    "inputs.custom.0",
+    "inputs.custom.1",
+    "size_tier",
+    "lowest_price_new_fba",
+    "lowest_price_used_fba",
+    "lowest_price_new_fbm",
+    "lowest_price_used_fbm",
+    "number_of_new_fba_offers",
+    "number_of_new_fbm_offers",
+    "is_brand_blocklisted",
+    "is_meltable",
+    "add_to_amazon_link"
+  ],
+  "visible": {
+    "checkbox": true,
+    "notes": true,
+    "chart": true,
+    "flags": true,
+    "errors": true,
+    "asin": true,
+    "amazon_title": true,
+    "fba_eligibility": true,
+    "images": true,
+    "size_name": true,
+    "brand": true,
+    "color": true,
+    "parent_asin": true,
+    "variations_list": true,
+    "number_of_variations": true,
+    "amazon_pack_quantity": true,
+    "small_and_light_eligible": true,
+    "buybox_price": true,
+    "buybox_price_new": true,
+    "buybox_price_used": true,
+    "total_offers_count": true,
+    "rank": true,
+    "category": true,
+    "is_top_level_category": true,
+    "bsr_percentage": true,
+    "width": true,
+    "height": true,
+    "length": true,
+    "weight": true,
+    "competitive_sellers": true,
+    "financials_inbound_shipping": true,
+    "financials_prep_cost": true,
+    "financials_fba_storage_fees": true,
+    "amazon_fees_per_item_fee": true,
+    "amazon_fees_fba_fees": true,
+    "amazon_fees_variable_closing_fee": true,
+    "amazon_fees_referral_fee": true,
+    "financials_net_revenue": true,
+    "financials_profit": true,
+    "financials_margin": true,
+    "financials_roi": true,
+    "input_identifier": true,
+    "input_cost": true,
+    "input_discount_per_product": true,
+    "input_discount_cost": true,
+    "input_total_cogs": true,
+    "input_stock": true,
+    "input_map": true,
+    "input_supplier_title": true,
+    "input_supplier_sku": true,
+    "input_supplier_image": true,
+    "input_supplier_pack_quantity": true,
+    "size_tier": true,
+    "lowest_price_new_fba": true,
+    "lowest_price_used_fba": true,
+    "lowest_price_new_fbm": true,
+    "lowest_price_used_fbm": true,
+    "new_fba_offers_count": true,
+    "new_fbm_offers_count": true,
+    "is_brand_blocklisted": true,
+    "is_meltable": true,
+    "add_to_amazon_link": true,
+    "MSRP": true,
+    "ASIN": true
+  }
+}
